@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abir's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Welcome!</strong> To My Demo Website!!!
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+    </div>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <h1 class="logo">Abir<span>.</span></h1>
+
+        <!-- Nav Links -->
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Dark Mode Toggle -->
+        <button id="darkModeToggle">🌙</button>
+
+        <!-- Hamburger Menu (Visible on Mobile) -->
+        <div
+          class="menu-toggle"
+          onclick="document.querySelector('.nav-links').classList.toggle('show')"
+        >
+          ☰
+        </div>
+      </nav>
+    </header>
+    <!-- Hero Section -->
+    <section
+      class="hero"
+      style="background: url('image/background.jpg') center/cover no-repeat"
+    >
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hello, I'm Abir 👋</h1>
+          <p>Computer Science Student | Web Developer | Tech Enthusiast</p>
+          <a href="cv.html" class="btn">View CV</a>
+        </div>
+        <div class="hero-image">
+          <img src="image/main.jpg" alt="Abir's Photo" class="profile-pic" />
+        </div>
+      </div>
+    </section>
+    <!-- About Me Section -->
+    <section id="about" data-aos="fade-up" class="section">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Abir, a Computer Science & Engineering student with a passion
+        for web development, cybersecurity, and problem-solving. I love building
+        projects that combine technology and creativity to make real-world
+        solutions.
+      </p>
+      <!-- Tech Stack Icons -->
+      <div class="tech-stack" data-aos="fade-up">
+        <img src="image/html.png" alt="HTML" title="HTML" />
+        <img src="image/css.png" alt="CSS" title="CSS" />
+        <img src="image/javascript.png" alt="JavaScript" title="JavaScript" />
+        <img src="image/python.png" alt="Python" title="Python" />
+        <img src="image/csharp.png" alt="C#" title="C#" />
+      </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="section" data-aos="fade-up">
+      <h2 class="section-title">Services</h2>
+      <div class="cards">
+        <div class="card">Web Development</div>
+        <div class="card">Cybersecurity</div>
+        <div class="card">Problem Solving</div>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="section" data-aos="fade-up">
+      <h2 class="section-title">Skills</h2>
+      <ul class="skills">
+        <li>C, C++, Java, C#</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>SQL, Python</li>
+        <li>Kali Linux, Burp Suite, Wireshark</li>
+      </ul>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="section" data-aos="fade-up">
+      <h2 class="section-title">Projects</h2>
+      <div>
+        <h3><strong>Click</strong> on projects for more details</h3>
+      </div>
+      <div class="cards">
+        <a
+          href="https://github.com/InfinityAbir/Inventory-Management-System"
+          target="_blank"
+          class="card-link"
+        >
+          <div class="card">Inventory Management System</div>
+        </a>
+        <a
+          href="https://github.com/InfinityAbir/WeatherApp"
+          target="_blank"
+          class="card-link"
+        >
+          <div class="card">Weather App</div>
+        </a>
+        <a
+          href="https://github.com/InfinityAbir/Maa-Medicine-Store"
+          target="_blank"
+          class="card-link"
+        >
+          <div class="card">Pharmacy Management System</div>
+        </a>
+      </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section" data-aos="fade-up">
+      <h2 class="section-title">Testimonials</h2>
+      <div class="testimonial">
+        <p>“Abir is highly motivated and skilled at problem solving.”</p>
+        <span>- Mentor</span>
+      </div>
+      <div class="testimonial">
+        <p>“A passionate learner and creative developer.”</p>
+        <span>- Classmate</span>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="section" data-aos="fade-up">
+      <h2 class="section-title">📬 Connect with Me</h2>
+      <div class="social-icons">
+        <a href="mailto:abirha3896@gmail.com" target="_blank"
+          ><i class="fas fa-envelope"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/infinityabirhasan/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="https://x.com/abirha3896?t=XY_5Tldw7t-sCapn8kAS0A&s=09"
+          target="_blank"
+          ><i class="fab fa-x-twitter"></i
+        ></a>
+        <a href="https://github.com/InfinityAbir" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer><p>© 2025 Abir. All rights reserved.</p></footer>
+    <button id="backToTop">↑</button>
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const alert = document.querySelector(".alert");
+
+        if (alert) {
+          const closeBtn = alert.querySelector(".btn-close");
+
+          // Manual close
+          closeBtn.addEventListener("click", () => {
+            alert.classList.add("fade-out");
+            setTimeout(() => alert.remove(), 200);
+          });
+
+          // Auto-hide after 5 seconds
+          setTimeout(() => {
+            if (alert) {
+              alert.classList.add("fade-out");
+              setTimeout(() => alert.remove(), 200);
+            }
+          }, 2000);
+        }
+      });
+    </script>
+  </body>
+</html>
