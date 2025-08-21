@@ -51,15 +51,14 @@
         </div>
       </nav>
     </header>
-    <!-- Hero Section -->
     <section
       class="hero"
       style="background: url('image/background.jpg') center/cover no-repeat"
     >
       <div class="hero-content">
         <div class="hero-text">
-          <h1>Hello, I'm Abir 👋</h1>
-          <p>Computer Science Student | Web Developer | Tech Enthusiast</p>
+          <h1><span id="typed-title"></span></h1>
+          <p><span id="typed-subtitle"></span></p>
           <a href="cv.html" class="btn">View CV</a>
         </div>
         <div class="hero-image">
@@ -67,15 +66,38 @@
         </div>
       </div>
     </section>
+
+    <!-- Typed.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+      // Type the heading first
+      var typedTitle = new Typed("#typed-title", {
+        strings: ["Hello, I'm Abir 👋"],
+        typeSpeed: 50,
+        showCursor: false, // no cursor for heading
+        onComplete: function () {
+          // After heading finishes, type subtitle
+          new Typed("#typed-subtitle", {
+            strings: [
+              "Computer Science Student | Web Developer | Tech Enthusiast",
+            ],
+            typeSpeed: 40,
+            backSpeed: 0, // no backspacing
+            loop: false, // type once
+            showCursor: false,
+          });
+        },
+      });
+    </script>
+
     <!-- About Me Section -->
     <section id="about" data-aos="fade-up" class="section">
       <h2>About Me</h2>
       <p>
-        Hello! I'm Abir, a Computer Science & Engineering student with a passion
-        for web development, cybersecurity, and problem-solving. I love building
-        projects that combine technology and creativity to make real-world
-        solutions.
+        <span id="typed"></span>
       </p>
+
       <!-- Tech Stack Icons -->
       <div class="tech-stack" data-aos="fade-up">
         <img src="image/html.png" alt="HTML" title="HTML" />
@@ -85,6 +107,23 @@
         <img src="image/csharp.png" alt="C#" title="C#" />
       </div>
     </section>
+
+    <!-- Typed.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Typed.js setup -->
+    <script>
+      var typed = new Typed("#typed", {
+        strings: [
+          "Hello! I'm Abir, a Computer Science and Engineering student with a passion for web development, cybersecurity, and problem-solving. I love building projects that combine technology and creativity to make real-world solutions.",
+        ],
+        typeSpeed: 30,
+        backSpeed: 0,
+        loop: false,
+        showCursor: false,
+      });
+    </script>
+
     <!-- Services Section -->
     <section id="services" class="section" data-aos="fade-up">
       <h2 class="section-title">Services</h2>
