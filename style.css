@@ -165,6 +165,25 @@ body {
   border: 5px solid #fff;
 }
 
+/* <!-- Typed.js cursor style --> */
+.typed-cursor {
+  font-size: 18px; /* matches your hero-text p font-size */
+  color: #ffeb3b; /* yellow cursor */
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
 /* Sections */
 #projects h3 {
   font-size: 1rem;
