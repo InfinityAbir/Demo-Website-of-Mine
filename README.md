@@ -12,7 +12,11 @@ You can explore the live version here:
 https://infinityabir.github.io/Demo-Website-of-Mine/
 
 ---
+### Screenshot:
+### Homme Page
 
+![Home Page](images/homepage.png)
+---
 ##  Overview
 
 This site features:
@@ -36,33 +40,27 @@ This site features:
 - **Experience**:  
   - Mentor – Programming with C at IUBAT (2023): Guided junior students through fundamentals and problem-solving.
 - **Contact**:  
-  - Email: abirha3896@gmail.com  
-  - Phone: +8801701554707  
-  - Location: Uttara, Dhaka, Bangladesh
+  - Email 
+  - Phone
+  - Location
 
 ---
-
-##  Files & Structure
-
-- `index.html` – Main single-page portfolio
-- `cv.html` – Separate Curriculum Vitae page
-- `style.css` – Styling sheet
-- `background.jpg`, `main.jpg` – Visual assets for header and layout
-- `.github/workflows/` – CI/CD workflows (if any)
-- `Abir_Hasan_CV.pdf` – Downloadable version of your CV
-
----
-
-##  License
-
-Distributed under the **MIT License**. See [LICENSE](LICENSE) for details.  
-© 2025 Abir Hasan.
-
----
-
 ##  Getting Started
 
 ### To View Locally:
 1. **Clone the repo**  
    ```bash
    git clone https://github.com/InfinityAbir/Demo-Website-of-Mine.git
+---
+##  License
+
+Distributed under the **MIT License**. See [LICENSE](LICENSE) for details.  
+© 2025 Abir Hasan.
+---
+## 👨‍💻 Author
+
+Developed by **Abir Hasan**  
+© 2025 All Rights Reserved  
+
+---
+⭐ If you like this project, feel free to fork, star, or suggest improvements!
