@@ -56,11 +56,10 @@ This site features:
 
 Distributed under the **MIT License**. See [LICENSE](LICENSE) for details.  
 © 2025 Abir Hasan.
----
+
 ## 👨‍💻 Author
 
 Developed by **Abir Hasan**  
 © 2025 All Rights Reserved  
 
----
 ⭐ If you like this project, feel free to fork, star, or suggest improvements!
