@@ -15,7 +15,7 @@ https://infinityabir.github.io/Demo-Website-of-Mine/
 ### Screenshot:
 ### Homme Page
 
-![Home Page](images/homepage.png)
+![Home Page](image/homepage.png)
 ---
 ##  Overview
 
